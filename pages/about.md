@@ -19,4 +19,4 @@ title: 关于我
 
 - Email&nbsp;: [424372929@qq.com](mailto:424372929@qq.com)
 
-- GitHub: [https://github.com/justinhuber](https://github.com/justhinhuber)
+- GitHub: [https://github.com/JustinHuber](https://github.com/JustinHuber)
