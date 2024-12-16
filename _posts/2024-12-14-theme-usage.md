@@ -1,13 +1,12 @@
 ---
 layout: mypost
-title: 标题
-categories: [分类1, 分类2]
+title: blog搭建及使用
+categories: [blog]
 ---
-
+github 免费 静态网页
 
 文章内容，Markdown格式
 
-套娃
 
 使用
 文章放在_posts目录下，命名为yyyy-MM-dd-xxxx-xxxx.md，内容格式如下
