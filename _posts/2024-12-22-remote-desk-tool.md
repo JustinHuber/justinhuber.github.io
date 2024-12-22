@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: rust 远程服务器选型及搭建
-categories: [rustdesktop]
+title: rustdesk 最好用的免费开源远程软件
+categories: [rustdesk，远程桌面，免费]
 ---
 
 1. 需求
@@ -32,6 +32,7 @@ UDP(21116)
 21118, 21119端口非必须
 
 客户端 使用自建服务器
+https://github.com/rustdesk/rustdesk/releases
 首先去官网下载客户端windows，MAC，ubuntu，安卓，iOS，都有客户端，甚至还有网页版，只要你下载安装了软件，就可以控制别人，也可以被别人控制。自建服务器的好处是没有数量限制也没有并发限制。
 
 获取key
