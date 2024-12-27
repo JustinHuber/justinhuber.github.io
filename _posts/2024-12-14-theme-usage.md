@@ -4,7 +4,9 @@ title: blog搭建及使用
 categories: [blog]
 ---
 
-# 选型分类  
+# blog选型分类
+静态网站
+动态网站  
 github 免费 静态网页
 选择主题模板
 考虑因素：
@@ -35,17 +37,22 @@ e.g
 
 
 # 如何写blog
-文章放在_posts目录下，命名为yyyy-MM-dd-xxxx-xxxx.md，内容格式如下
+# 使用
 
+文章放在`_posts`目录下，命名为`yyyy-MM-dd-xxxx-xxxx.md`，内容格式如下
+
+```yaml
 ---
 layout: mypost
 title: 标题
 categories: [分类1, 分类2]
 ---
+文章内容，Markdown格式
+```
 
 文章内容，Markdown格式
 文章资源放在posts目录，如文章文件名是2024-12-14-theme-usage.md，则该篇文章的资源需要放在posts/2024/12/14下，创建时可用 \  在文章使用时直接引用即可。当然了，写作的时候会提示资源不存在忽略即可
 
-![这是图片](xxx.png)
+![这是图片](xx.png)
 
 [xxx.zip 下载](xxx.zip)
