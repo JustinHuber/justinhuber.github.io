@@ -1,13 +1,13 @@
 ---
 layout: mypost
 title: rustdesk 最好用的免费开源远程软件
-categories: [rustdesk，远程桌面，免费]
+categories: [rustdesk, 远程桌面, 免费]
 ---
 
 # 需求 
 
 远程协助，方便多客户端
-可选软件：rustdesk 向日葵 teamviewer todesk 微软远程桌面
+可选软件：rustdesk toDesk 向日葵 teamviewer anydesk 微软远程桌面
 
 # 对比
 
@@ -35,7 +35,7 @@ UDP(21116)
 
 ### 客户端 使用自建服务器
 https://github.com/rustdesk/rustdesk/releases
-首先去官网下载客户端windows，MAC，ubuntu，安卓，iOS，都有客户端，甚至还有网页版，只要你下载安装了软件，就可以控制别人，也可以被别人控制。自建服务器的好处是没有数量限制也没有并发限制。
+首先去官网下载客户端 windows，MAC，ubuntu，安卓，iOS，都有客户端，甚至还有网页版，只要你下载安装了软件，就可以控制别人，也可以被别人控制。自建服务器的好处是没有数量限制也没有并发限制。
 
 ### 获取key
 找到服务端公钥   
@@ -49,6 +49,7 @@ API服务器：留空
 KEY：上面获取到的Key
 
 # 福利😄：
+云服务器公网ip可能会变 建议搞个域名
 ID服务器：8.217.104.51  
 中继服务器：8.217.204.237  
 KEY：4hOx9idblsI678JMGJGJ3QgK00zJlLdd8gyvopJIIdM=  
