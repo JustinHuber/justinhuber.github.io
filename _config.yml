@@ -20,7 +20,7 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://blog.suzhou.us.kg'
+domainUrl: 'https://blog.zspace.ggff.net'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
@@ -64,8 +64,6 @@ links:
     url: https://blog.ddsrem.com/
   - title: 祈雨的博客
     url: https://wakzz.cn
-  - title: My Solo Blog
-    url: http://solo.suzhou.us.kg/
   - title: 琼西往事
     url: https://fushaolei.github.io
   - title: Py's Whisper
