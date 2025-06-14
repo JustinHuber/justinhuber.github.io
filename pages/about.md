@@ -11,7 +11,7 @@ title: 关于我
 
 ## 相关技能
 
-全栈开发，主要语言 Java 略懂Python、JavaScript、Node.js，Vue。熟悉数据库，Docker，运维相关技术
+全栈开发，主要语言 Java 略懂Python、JavaScript、Node.js、Vue、Go。熟悉数据库，Docker，运维相关技术
 
 如有远程工作的机会欢迎联系我 😄
 
