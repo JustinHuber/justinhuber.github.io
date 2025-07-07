@@ -1,15 +1,15 @@
 ---
 layout: mypost
 title: rustdesk 最好用的免费开源远程软件
-categories: [rustdesk, 远程桌面, 免费]
+categories: [rustdesk, 远程桌面, 免费,串流]
 ---
 
 # 需求 
-远程协助，客户端，串流
+远程协助，全平台客户端，串流
 可选软件：rustdesk toDesk 向日葵 teamviewer anydesk 微软自带远程桌面
 
 # 对比
-rustdesk优势：开源免费 自建服务器无限制 多客户端
+rustdesk优势：开源免费 自建服务器无限制 全平台客户端
 完全免费，无需安装，开箱即用
 支持局域网端到端发现、支持 IP 白名单、剪贴板互通 (复制粘贴文件)、收发文本消息等功能。
 支持 Windows、macOS、Liunx、IOS、Android、Web 等多个平台
@@ -22,6 +22,7 @@ rustdesk优势：开源免费 自建服务器无限制 多客户端
 
 # 搭建
 服务端建议docker compose安装
+```yaml
 services:
   hbbs:
     container_name: hbbs
@@ -49,6 +50,7 @@ services:
     # 21116 TCP TCP 打洞
     # 21116 UDP 心跳/ID 服务器
     # 21117 TCP 中继
+```
 
 
 ### 端口使用说明
