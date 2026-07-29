@@ -1,34 +1,43 @@
 encoding: utf-8
+timezone: Asia/Shanghai
+lang: zh-CN
 
 plugins:
   - jekyll-regex-replace
+  - jekyll-sitemap
+  - jekyll-feed
 
-# SEO相关信息
+# Site
 title: Justin Blog
-description: Justin的个人博客
-keywords: Justin,Blog,Java,Html,JavaScript
-author: Justin
-footerText: 'Copyright © nobody'
+description: Justin 的个人技术博客，记录 Java、Web、运维、生活与折腾笔记。
+keywords: Justin, Blog, Java, Html, JavaScript, 运维, 远程工作
+author: Justin Huber
+email: 424372929@qq.com
+url: https://blog.nasspace.dpdns.org
+baseurl: ''
+domainUrl: 'https://blog.nasspace.dpdns.org'
 
-# 这些不要动
+# Collections / permalinks
 permalink: /posts/:year/:month/:day/:title.html
 kramdown:
   auto_ids: true
   input: GFM
   syntax_highlighter: rouge
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+  syntax_highlighter_opts:
+    default_lang: text
 
-# 域名配置
-# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://blog.zspace.ggff.net'
-baseurl: ''
+exclude:
+  - CNAME
+  - README.md
+  - LICENSE
+  - _site
+  - dist
+  - Gemfile
+  - Gemfile.lock
+  - blog.sh
+  - node_modules
 
-# 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/product/679362
-
-# 菜单
-# 必填字段 title: '文本' url: '链接'
-# 可选字段 target: '_blank' 新页面打开 
+# Menu
 menu:
   - title: 首页
     url: /
@@ -43,23 +52,37 @@ menu:
   - title: 关于
     url: /pages/about.html
 
-# 点击页面文字冒出特效,不需要请设置为false
+# Extensions
 extClickEffect: true
-
-# Google Adsense,不需要请设置为false
-# _includes/ext-adsense.html 里面修改为自己的配置
 extAdsense: false
-
-# 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: false
-
-# 显示访问量统计，由不蒜子提供服务
 extCount: true
 
-# 友情链接
+# Third-party
+tucaoUrl: https://support.qq.com/product/679362
+
+# Footer
+footerText: 'Copyright © 2024 Justin Huber'
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "mypost"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Social / links
 links:
-  - title: Joey blog
-    url: https://joeyblog.net/
+  - title: 文科中的技术宅
+    url: https://www.townwang.com
   - title: ddsrem
     url: https://blog.ddsrem.com/
   - title: 祈雨的博客
